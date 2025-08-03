@@ -29,7 +29,7 @@ let Home = ({ setIndex }) => {
         </div>
       </div>
       <Routes>
-        <Route path="/space-firm-site/destination" element={<Destination />} />
+        <Route path="/destination" element={<Destination />} />
       </Routes>
     </section>
   );
