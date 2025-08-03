@@ -4,7 +4,7 @@ import Destination from "./Destination/Destination";
 import Home from "./Home/Home";
 import Crew from "./Crew/Crew";
 import Technology from "./Technology/Technology";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link, Navigate } from "react-router-dom";
 
 import { useState } from "react";
 
