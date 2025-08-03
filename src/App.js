@@ -89,7 +89,7 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route path="/home" element={<Home setIndex={setIndex} />} />
+        <Route path="/" element={<Home setIndex={setIndex} />} />
         <Route path="/destination" element={<Destination />} />
         <Route path="/crew" element={<Crew />} />
         <Route path="/technology" element={<Technology />} />
