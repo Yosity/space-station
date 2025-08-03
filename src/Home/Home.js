@@ -19,7 +19,7 @@ let Home = ({ setIndex }) => {
         </div>
         <div className="explore-container">
           <Link
-            to="/space-firm-site/destination"
+            to="/destination"
             onClick={() => {
               setIndex(1);
             }}
